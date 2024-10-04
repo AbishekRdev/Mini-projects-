@@ -1,0 +1,55 @@
+body{
+  
+    text-align: center;
+    font-family:pixel,sans-serif; 
+}
+h2{
+    margin:0  0 40px 0;
+}
+.box-container{
+
+    height:400px;
+    width:400px;
+    margin:auto;
+  
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    height:150px;
+    width:150px;
+    border-radius:1rem;
+    margin:15px 15px 20px 15px;
+    border:5px solid black;
+}
+.blue{ 
+    background-color:#FFAD60;
+
+}
+.red{
+    background-color:#A02334;
+
+}
+.yellow{
+    background-color:#FFEEAD;
+}
+
+.green{
+    background-color:#96CEB4;
+}
+
+.userflash{
+
+    background-color:green;
+}
+.gameflash{
+    background-color: white;
+}
+
+
+@font-face {
+    font-family: pixel;
+    src: url(./pixelon-font/Pixelon-OGALo.ttf);
+}
+
